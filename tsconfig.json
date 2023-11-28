@@ -1,0 +1,15 @@
+{
+    "include": [
+        "src/**/*",
+    ],
+    "exclude": [
+        "node_modules",
+    ],
+    "compilerOptions": {
+        "outDir": "bin",
+        "target": "ES6",
+        "module": "CommonJS",
+        "removeComments": true,
+        "noImplicitAny": true,
+    }
+}
