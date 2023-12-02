@@ -6,10 +6,24 @@
         "node_modules",
     ],
     "compilerOptions": {
+        "rootDir": "src",
         "outDir": "bin",
-        "target": "ES6",
-        "module": "CommonJS",
-        "removeComments": true,
-        "noImplicitAny": true,
+        // "strict": true,
+        // "target": "es6",
+        // "module": "commonjs",
+        // "sourceMap": true,
+        // "esModuleInterop": true,
+        // "moduleResolution": "node"
+        "declaration": true,
+        "module": "commonjs",
+        "target": "ES2021",
+        "skipLibCheck": true,
+        "sourceMap": false,
+        "strict": true,
+        "useUnknownInCatchVariables": false,
+        "types": [
+            "node",
+            // "jest"
+        ]
     }
 }
