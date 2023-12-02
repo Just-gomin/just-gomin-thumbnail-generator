@@ -1,3 +1,7 @@
+#!/usr/bin/env node
+// => Unix-like platform들에서 실행 환경을 알려준다.
+// 참고: https://stackoverflow.com/a/33510581
+
 import { Command } from "commander";
 
 const log = console.log;
